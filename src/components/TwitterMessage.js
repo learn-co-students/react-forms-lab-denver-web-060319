@@ -6,7 +6,6 @@ class TwitterMessage extends React.Component {
     this.state = { message: '', charCount: this.props.maxChars };
   }
   
-
   onInputChange = (event) => {
     this.setState({
       [event.target.name]: event.target.value,
