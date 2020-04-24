@@ -25,8 +25,6 @@ class LoginForm extends React.Component {
     )
   }
 
-
-
   render() {
     return (
       <form onSubmit={this.onFormSubmit}>
@@ -63,3 +61,5 @@ class LoginForm extends React.Component {
 }
 
 export default LoginForm;
+
+
